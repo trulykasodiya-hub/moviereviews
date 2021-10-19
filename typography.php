@@ -39,16 +39,16 @@
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.php">Home</a></li>
                 <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
-                        <li><a href="./categories-list.html">Categories</a></li>
-                        <li><a href="./categories-grid.html">Categories grid</a></li>
-                        <li><a href="./typography.html">Typography</a></li>
-                        <li><a href="./details-post-default.html">Post default</a></li>
-                        <li><a href="./details-post-gallery.html">Post gallery</a></li>
-                        <li><a href="./details-post-review.html">Post review</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./categories-list.php">Categories</a></li>
+                        <li><a href="./categories-grid.php">Categories grid</a></li>
+                        <li><a href="./typography.php">Typography</a></li>
+                        <li><a href="./details-post-default.php">Post default</a></li>
+                        <li><a href="./details-post-gallery.php">Post gallery</a></li>
+                        <li><a href="./details-post-review.php">Post review</a></li>
+                        <li><a href="./contact.php">Contact</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Reviews <i class="fa fa-angle-down"></i></a>
@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                       <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                       <a href="./index.php"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="nav-menu">
                     <ul>
-                        <li><a href="./index.html"><span>Home</span></a></li>
+                        <li><a href="./index.php"><span>Home</span></a></li>
                         <li class="mega-menu"><a href="#"><span>Platform <i class="fa fa-angle-down"></i></span></a>
                             <div class="megamenu-wrapper">
                                 <ul class="mw-nav">
@@ -224,13 +224,13 @@
                         </li>
                         <li class="active"><a href="#"><span>Pages <i class="fa fa-angle-down"></i></span></a>
                             <ul class="dropdown">
-                                <li><a href="./categories-list.html">Categories</a></li>
-                                <li><a href="./categories-grid.html">Categories grid</a></li>
-                                <li><a href="./typography.html">Typography</a></li>
-                                <li><a href="./details-post-default.html">Post default</a></li>
-                                <li><a href="./details-post-gallery.html">Post gallery</a></li>
-                                <li><a href="./details-post-review.html">Post review</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./categories-list.php">Categories</a></li>
+                                <li><a href="./categories-grid.php">Categories grid</a></li>
+                                <li><a href="./typography.php">Typography</a></li>
+                                <li><a href="./details-post-default.php">Post default</a></li>
+                                <li><a href="./details-post-gallery.php">Post gallery</a></li>
+                                <li><a href="./details-post-review.php">Post review</a></li>
+                                <li><a href="./contact.php">Contact</a></li>
                             </ul>
                         </li>
                         <li><a href="#"><span>Reviews <i class="fa fa-angle-down"></i></span></a></li>
@@ -243,100 +243,107 @@
     </header>
     <!-- Header End -->
 
-    <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/details/details-post.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="details-hero-text">
-                        <div class="label"><span>Playstation</span></div>
-                        <div class="label"><span>Hardware</span></div>
-                        <h3>Jupiter Hell, the spiritual successor to a Doom roguelike week</h3>
-                        <ul>
-                            <li>by <span>Admin</span></li>
-                            <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                            <li><i class="fa fa-comment-o"></i> 20</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Details Hero Section End -->
-
     <!-- Details Post Section Begin -->
     <section class="details-post-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 p-0">
-                    <div class="details-text">
+                    <div class="details-text typography-page">
+                        <div class="dt-breadcrumb">
+                            <div class="dt-bread-option">
+                                <a href="#">Home</a>
+                                <span>Typography</span>
+                            </div>
+                            <h3>TYPOGRAPHY</h3>
+                        </div>
                         <div class="dt-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua accusantium doloremque laudantium.</p>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                                in. . Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                        </div>
-                        <div class="dt-quote">
-                            <p>“ It's these long and meandering character arcs that make my adventures feel so epic in
-                                scale, like if Game of Thrones was a high-fantasy anime.” - <span>Steven Jobs</span></p>
-                        </div>
-                        <div class="dt-item">
-                            <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit
-                                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.</p>
-                            <h5>You Can Buy For Less Than A College Degree</h5>
                             <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                         <div class="dt-pic-item">
                             <div class="dp-pic">
-                                <img src="img/details/dp-p.jpg" alt="">
+                                <img src="img/details/dp-p1.jpg" alt="">
                             </div>
                             <div class="dp-text">
-                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                                    himenaeos. Mauris vel magna ex. Integer gravida tincidunt accumsan. Vestibulum nulla
-                                    mauris, condimentum id felis ac, volutpat volutpat mi. In vitae tempor velit of the
-                                    impenetrable foliage.</p>
-                                <ul>
-                                    <li>Ut enim ad minim veniam, quis nostrud exercitation. </li>
-                                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                    <li>Excepteur sint occaecat cupidatat non proident.</li>
-                                    <li>Sed ut perspiciatis unde omnis iste natus error.</li>
-                                </ul>
                                 <p>Vestibulum commodo nulla eu augue tincidunt rutrum. Suspendisse interdum lacus in
                                     ligula finibus luctus. Vivamus mollis libero vel orci finibus, sit amet malesuada
                                     lectus aliquam. In auctor viverra eros. Maecenas elit mi, dictum et consectetur nec,
                                     sollicitudin sed arcu.Curabitur tempor tempor pharetra.Sed imperdiet sem at nunc
                                     luctus, sed cursus nulla mollis. Orci varius natoque penatibus et magnis dis
                                     parturient montes, nascetur ridiculus mus porta tincidunt, purus enim laoreet.</p>
+                                <p>Mauris ipsum libero, luctus non tempor sed, luctus nec dui. Cras ac ante quis neque
+                                    viverra mollis vel sed metus. Donec suscipit imperdiet neque, at euismod mauris
+                                    faucibus nec. Etiam varius ornare celerisque. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
                             </div>
                         </div>
-                        <div class="dt-last-desc">
+                        <div class="dt-desc">
+                            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Mauris vel magna ex. Integer gravida tincidunt accumsan. Vestibulum nulla
+                                mauris, condimentum id felis ac, volutpat volutpat mi. In vitae tempor velit of the
+                                impenetrable foliage xcepteur sint occaecat cupidatat non proident.</p>
+                        </div>
+                        <div class="dt-heading-tags">
+                            <h3 class="title">Heading tags</h3>
+                            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Suspen potenti. Pellentesque massa enim, fringilla ut ullamcorper sit amet,
+                                ornare at ipsum.</p>
+                            <div class="heading-list">
+                                <h3>This is heading 1</h3>
+                                <h4>This is heading 2</h4>
+                                <h5 class="large-h5">This is heading 3</h5>
+                                <h5>This is heading 4</h5>
+                                <h6>This is heading 5</h6>
+                                <h6 class="small-h6">This is heading 6</h6>
+                            </div>
+                            <p>Proin rhoncus mauris arcu, vel rutrum quam dictum quis. Fusce aliquam magna dolor, non
+                                efficitur metus semper nec. Vivamus ac elit at dui fermentum dapibus. Pellentesque
+                                habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut sed
+                                diam id neque feugiat.</p>
+                        </div>
+                        <div class="dt-listing unorder-list">
+                            <h3>Unordered List</h3>
                             <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
                                 vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                                 odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
                                 nesciunt tempora incidunt ut labore . Neque porro quisquam est, qui dolorem ipsum quia
                                 dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
+                            <ul>
+                                <li>Ut enim ad minim veniam, quis nostrud exercitation. </li>
+                                <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                <li class="unorder-inner">Excepteur sint occaecat cupidatat non proident.</li>
+                                <li class="unorder-inner">Sed ut perspiciatis unde omnis iste natus error.</li>
+                                <li>Excepteur sint occaecat cupidatat non proident.</li>
+                                <li>Sed ut perspiciatis unde omnis iste natus error.</li>
+                            </ul>
                             <p>Duis aute irure dolor inenim ad minim veniam, quis nostrud exercitation ullamco laboris
                                 nisi ut aliquip ex ea commodo conslaboris nisi ut aliquip ex ea commodo consequat. Duis
                                 aute irure Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                                tempor incididunt ut labore et dolore.</p>
                         </div>
-                        <div class="dt-tags">
-                            <a href="#"><span>Gaming</span></a>
-                            <a href="#"><span>Platform</span></a>
-                            <a href="#"><span>Playstation</span></a>
-                            <a href="#"><span>Hardware</span></a>
+                        <div class="dt-listing order-list">
+                            <h3>Ordered List</h3>
+                            <p>Integer vel commodo erat. Mauris dun fringilla eleifend lobortis. Aenean idas venenatis
+                                ligula. Cras indo nibh facilisis, tincidunt quamto nec, fringilla neque. Morbi ornare in
+                                nisi atc cond mentum. Interdum etc malesuada fames ate ipsum primis in faucibus. Nullam
+                                sagitis et nulla sed posuere magna aliqua.</p>
+                            <ul>
+                                <li><span>1.</span> Ut enim veniam, quis nostrud exercitation.</li>
+                                <li><span>2.</span> Irure dolor in reprehenderit in voluptate velit. </li>
+                                <li class="order-inner"><span>1.</span> Ut enim veniam, quis nostrud exercitation.</li>
+                                <li class="order-inner"><span>2.</span> Irure dolor in reprehenderit in voluptate velit.
+                                </li>
+                                <li><span>3.</span> Excepteur sint occaecat cupidatat proident.</li>
+                                <li><span>4.</span> Sed ut perspiciatis unde omnis iste natus error.</li>
+                            </ul>
+                            <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
                         </div>
                         <div class="dt-share">
                             <div class="ds-title">Share</div>
@@ -348,112 +355,6 @@
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
-                        </div>
-                        <div class="dt-related-post">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <a href="#" class="rp-prev">
-                                        <span>Prev</span>
-                                        <div class="rp-pic">
-                                            <img src="img/details/prev.jpg" alt="">
-                                        </div>
-                                        <div class="rp-text">
-                                            <h6>The Real-Estate Developers Are the Enemy</h6>
-                                            <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                                <li><i class="fa fa-comment-o"></i> 20</li>
-                                            </ul>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-6">
-                                    <a href="#" class="rp-next">
-                                        <span>Next</span>
-                                        <div class="rp-pic">
-                                            <img src="img/details/next.jpg" alt="">
-                                        </div>
-                                        <div class="rp-text">
-                                            <h6>Montreal real estate: Bargains in cottage countrya</h6>
-                                            <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                                <li><i class="fa fa-comment-o"></i> 20</li>
-                                            </ul>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dt-author">
-                            <div class="da-pic">
-                                <img src="img/details/author-pic.jpg" alt="">
-                            </div>
-                            <div class="da-text">
-                                <h5>Almil Hmaper</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <div class="da-links">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dt-comment">
-                            <h4>3 comment</h4>
-                            <div class="dc-item">
-                                <div class="dc-pic">
-                                    <img src="img/details/comment/comment-1.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>Brandon Kelley</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                                        dolore magnam.</p>
-                                    <a href="#" class="reply-btn"><span>Reply</span></a>
-                                </div>
-                            </div>
-                            <div class="dc-item reply-item">
-                                <div class="dc-pic">
-                                    <img src="img/details/comment/comment-2.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>Brandon Kelley</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                                        dolore magnam.</p>
-                                    <a href="#" class="reply-btn"><span>Reply</span></a>
-                                </div>
-                            </div>
-                            <div class="dc-item">
-                                <div class="dc-pic">
-                                    <img src="img/details/comment/comment-3.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>Matthew Nelson</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                                        dolore magnam.</p>
-                                    <a href="#" class="reply-btn"><span>Reply</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dt-leave-comment">
-                            <h4>Leave a comment</h4>
-                            <form action="#">
-                                <div class="input-list">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Email">
-                                    <input type="text" placeholder="Website">
-                                </div>
-                                <textarea placeholder="Message"></textarea>
-                                <button type="submit">Submit</button>
-                            </form>
                         </div>
                     </div>
                 </div>
